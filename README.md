@@ -1,8 +1,6 @@
 # AI Systems Book
 Comprehensive textbook for AI practitioners: Qwen models, multimodal AI, and practical AI systems deployment.
 
-[![Deploy to GitHub Pages](https://github.com/Ameen-Alam/ai-systems-book/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/Ameen-Alam/ai-systems-book/actions)
-[![Build Validation](https://github.com/Ameen-Alam/ai-systems-book/workflows/Build%20Validation/badge.svg)](https://github.com/Ameen-Alam/ai-systems-book/actions)
 
 ## Overview
 This textbook provides hands-on training for building AI systems using:
@@ -34,7 +32,7 @@ Choose one of three configurations:
 ## Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/Ameen-Alam/ai-systems-book.git
+git clone https://github.com/SyedaAnabia/ai-systems-book
 cd ai-systems-book
 
 # Install dependencies
