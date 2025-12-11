@@ -17,20 +17,20 @@ const config: Config = {
 
 
   // Set the production url of your site here
-  url: 'https:/Fakharuddin1.github.io',
+  url: 'https://github.com/SyedaAnabia',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical-AI-Humanoid-Robotics-Textbook/',
+  baseUrl: '/ai-systems-book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Fakharuddin1', // Usually your GitHub org/user name.
-  projectName: 'Physical-AI-Humanoid-Robotics-Textbook', // Usually your repo name.
+  organizationName: 'SyedaAnabia', // Usually your GitHub org/user name.
+  projectName: 'ai-systems-book', // Usually your repo name.
  
 
  deploymentBranch: 'gh-pages',
  trailingSlash: false,
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -51,7 +51,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Fakharuddin1/Physical-AI-Humanoid-Robotics-Textbook',
+            'https://github.com/SyedaAnabia/ai-systems-book',
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +62,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Fakharuddin1',
+            'https://github.com/SyedaAnabia',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -96,7 +96,7 @@ const config: Config = {
         },
        
         {
-          href: 'https://github.com/Fakharuddin1',
+          href: 'https://github.com/SyedaAnabia',
           label: 'GitHub',
           position: 'right',
         },
@@ -110,7 +110,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: 'intro',
+              to: '/docs/intro',
             },
           ],
         },
