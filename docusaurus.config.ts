@@ -8,7 +8,7 @@ const config: Config = {
   
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'Embodied Intelligence - From Digital Brain to Physical Body',
-  favicon: 'img/navbarlogo.jp',
+  favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -30,7 +30,7 @@ const config: Config = {
 
  deploymentBranch: 'gh-pages',
  trailingSlash: false,
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -77,7 +77,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -85,7 +85,7 @@ const config: Config = {
       title: 'My Site',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/icon.jpg',
+        src: 'img/logo.jpg',
       },
       items: [
         {
@@ -110,7 +110,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: 'intro',
             },
           ],
         },
