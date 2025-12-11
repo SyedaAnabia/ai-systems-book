@@ -8,7 +8,7 @@ const config: Config = {
   
   title: 'Physical AI & Humanoid Robotics',
   tagline: 'Embodied Intelligence - From Digital Brain to Physical Body',
-  favicon: 'img/logo.jpg',
+  favicon: 'img/navbarlogo.jp',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -85,7 +85,7 @@ const config: Config = {
       title: 'My Site',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/favicon.ico.jpg',
+        src: 'img/icon.jpg',
       },
       items: [
         {
